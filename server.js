@@ -19,7 +19,7 @@ const cars = [
 ]
 
 app.get("/api/cars", (req, res) => {
-  res.send({cars: car})
+  res.send(cars)
 });
 
 app.post("/api/cars", (req, res) => {
